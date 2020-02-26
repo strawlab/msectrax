@@ -1,0 +1,11 @@
+[package]
+name = "dac714"
+version = "0.2.0"
+authors = ["Andrew Straw <strawman@astraw.com>"]
+categories = ["embedded", "hardware-support", "no-std"]
+license = "GPL-1.0-only"
+edition = "2018"
+
+[dependencies]
+embedded-hal = "0.2.3"
+byteorder = { version = "1", default-features = false }

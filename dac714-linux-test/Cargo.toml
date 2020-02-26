@@ -1,0 +1,11 @@
+[package]
+name = "dac714-linux-test"
+version = "0.1.0"
+authors = ["Andrew Straw <strawman@astraw.com>"]
+edition = "2018"
+license = "GPL-1.0-only"
+
+[dependencies]
+embedded-hal = "0.2.2"
+linux-embedded-hal = "0.2.2"
+dac714 = {path="../dac714"}

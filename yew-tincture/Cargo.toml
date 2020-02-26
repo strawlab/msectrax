@@ -1,0 +1,10 @@
+[package]
+name = "yew-tincture"
+version = "0.1.0"
+authors = ["Andrew Straw <strawman@astraw.com>"]
+edition = "2018"
+license = "GPL-1.0-only"
+
+[dependencies]
+yew = "0.7"
+uuid = { version = "0.7.2", features = ["v4","stdweb"] }
